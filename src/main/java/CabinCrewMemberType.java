@@ -1,6 +1,7 @@
 public enum CabinCrewMemberType {
 
-    CAPTAIN(1);
+    CAPTAIN(1),
+    ATTENDANT(2);
 
     private final int rank;
 
