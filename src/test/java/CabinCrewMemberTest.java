@@ -9,13 +9,13 @@ public class CabinCrewMemberTest {
 
     @Before
     public void before() {
-        cabinCrewMember = new CabinCrewMember(Rank.ATTENDANT, "Ritesh Chugh");
+        cabinCrewMember = new CabinCrewMember(Rank.ATTENDANT, "Maria");
 
     }
 
     @Test
     public void hasMemberName() {
-        assertEquals("Ritesh Chugh", cabinCrewMember.getName() );
+        assertEquals("Maria", cabinCrewMember.getName() );
 
     }
 

@@ -15,4 +15,8 @@ public class Passenger {
     public int getNumberOfBags() {
         return bags;
     }
+
+    public void setFlight(String flightNumber) {
+        flightNumber = flightNumber;
+    }
 }
