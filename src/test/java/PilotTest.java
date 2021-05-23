@@ -30,7 +30,7 @@ public class PilotTest {
     }
 
     @Test
-    public void canDeparturePlane() {
-        assertEquals("This flight is departing now" , pilot.departurePlane());
+    public void canFlyPlane() {
+        assertEquals("This flight is departing now" , pilot.flyPlane());
     }
 }

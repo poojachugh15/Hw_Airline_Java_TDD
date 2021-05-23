@@ -19,7 +19,7 @@ public class Flight {
         this.destination = destination;
         this.departure = departure;
         this.departureTime = departureTime;
-       
+
     }
 
 

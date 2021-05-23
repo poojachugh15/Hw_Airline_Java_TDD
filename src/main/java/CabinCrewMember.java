@@ -15,4 +15,7 @@ public class CabinCrewMember {
     public String getName() {
         return crewMemberName;
     }
+    public String relayMessage(){
+        return "Namaste! please prepare for gate departure.";
+    }
 }

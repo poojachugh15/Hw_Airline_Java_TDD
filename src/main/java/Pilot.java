@@ -14,7 +14,7 @@ public class Pilot extends CabinCrewMember{
         return licenceNumber;
     }
 
-    public String departurePlane(){
+    public String flyPlane(){
         return "This flight is departing now";
     }
 }
