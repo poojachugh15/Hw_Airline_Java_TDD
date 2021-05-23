@@ -1,18 +1,18 @@
 public class CabinCrewMember {
 
-    private CabinCrewMemberType cabinCrewType;
+    private Rank rank;
     private String crewMemberName;
 
-    public CabinCrewMember(CabinCrewMemberType cabinCrewType, String crewMemberName) {
-        this.cabinCrewType = cabinCrewType;
+    public CabinCrewMember(Rank rank, String crewMemberName) {
+        this.rank = rank;
         this.crewMemberName = crewMemberName;
     }
 
-    public CabinCrewMemberType getCabinCrewType() {
-        return cabinCrewType;
+    public Rank getRank() {
+        return rank;
     }
 
-    public String getCrewMemberName() {
+    public String getName() {
         return crewMemberName;
     }
 }

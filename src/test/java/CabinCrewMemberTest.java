@@ -9,18 +9,18 @@ public class CabinCrewMemberTest {
 
     @Before
     public void before() {
-        cabinCrewMember = new CabinCrewMember(CabinCrewMemberType.CAPTAIN, "Ritesh Chugh");
+        cabinCrewMember = new CabinCrewMember(Rank.ATTENDANT, "Ritesh Chugh");
 
     }
 
     @Test
     public void hasMemberName() {
-        assertEquals("Ritesh Chugh", cabinCrewMember.getCrewMemberName() );
+        assertEquals("Ritesh Chugh", cabinCrewMember.getName() );
 
     }
 
     @Test
     public void hasCrewType() {
-        assertEquals(CabinCrewMemberType.CAPTAIN, cabinCrewMember.getCabinCrewType());
+        assertEquals(Rank.ATTENDANT, cabinCrewMember.getRank());
     }
 }
